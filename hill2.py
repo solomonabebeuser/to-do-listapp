@@ -86,7 +86,7 @@ class HillCipherGUI:
             text += 'X'
         return [ord(char) - 65 for char in text]
 
-    # Step 11: Define a method to encrypt the entered plaintext
+    # Step 11: Define a  to encrypt the entered plaintext
     def encrypt_text(self):
         key = self.prepare_key()
         if key is None:
